@@ -21,7 +21,7 @@ import javax.validation.Valid;
  * Controller to authenticate users.
  */
 @RestController
-@RequestMapping("/api")
+// @RequestMapping("/api")
 public class UserJWTController {
 
     private final TokenProvider tokenProvider;
@@ -33,7 +33,7 @@ public class UserJWTController {
         this.authenticationManagerBuilder = authenticationManagerBuilder;
     }
 
-    @PostMapping("/authenticate")
+    // @PostMapping("/authenticate")
     public ResponseEntity<JWTToken> authorize(@Valid @RequestBody LoginVM loginVM) {
 
         UsernamePasswordAuthenticationToken authenticationToken =

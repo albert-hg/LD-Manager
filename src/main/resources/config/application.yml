@@ -14,6 +14,8 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
+ldpath: D:\\LDPlayer\\LDPlayer4.0\\
+
 management:
   endpoints:
     web:
@@ -123,7 +125,7 @@ jhipster:
   mail:
     from: lbmanager@localhost
   swagger:
-    default-include-pattern: /api/.*
+    default-include-pattern: /leidian/.*
     title: lbmanager API
     description: lbmanager API documentation
     version: 0.0.1

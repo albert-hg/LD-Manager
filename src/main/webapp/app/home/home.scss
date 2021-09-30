@@ -21,3 +21,77 @@ Main page styles
     background-size: contain;
   }
 }
+
+.table > thead > tr {
+  & > th:nth-child(1) {
+    width: 15%;
+  }
+  & > th:nth-child(2) {
+    width: 15;
+  }
+  & > th:nth-child(3) {
+    width: 30%;
+  }
+  & > th:nth-child(4) {
+    width: 20%;
+  }
+  & > th:nth-child(5) {
+    width: 20%;
+  }
+  & > th {
+    position: sticky;
+    top: -1px;
+    z-index: 2;
+    background-color: #c5c5c5;
+  }
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.filter-field {
+  height: min-content;
+}
+
+.list-field {
+  flex: 1;
+  overflow: auto;
+}
+
+.patch-field {
+  height: min-content;
+  margin-top: auto;
+}
+
+.checked-item {
+  font-size: 14px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(85, 107, 47, 0.336);
+  }
+}
+
+.data-row:hover {
+  background-color: #cce5ff86;
+}
+
+.execute-field {
+  & > .sort-windows_btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  & > .sort-windows_ipt {
+    height: 38px;
+    width: 90px;
+    text-align: center;
+    border: 1px #6c757d solid;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+

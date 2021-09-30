@@ -13,7 +13,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/api")
+// @RequestMapping("/api")
 public class AccountResource {
 
     private static class AccountResourceException extends RuntimeException {
@@ -25,7 +25,7 @@ public class AccountResource {
      * @return the current user.
      * @throws AccountResourceException {@code 500 (Internal Server Error)} if the user couldn't be returned.
      */
-    @GetMapping("/account")
+    // @GetMapping("/account")
     public UserVM getAccount() {
         String login = SecurityUtils.getCurrentUserLogin()
             .orElseThrow(AccountResourceException::new);

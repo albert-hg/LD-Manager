@@ -1,0 +1,8 @@
+<service>
+	<id>LD Manager</id>
+	<name>LD Manager</name>
+	<description></description>	
+	<executable>java</executable>
+	<arguments>-Xrs -jar "ldmanager-1.0.1.jar" --server.port=9473 --spring.profiles.active=prod --ldpath="D:\\LDPlayer\\LDPlayer4.0\\"</arguments>
+	<logmode>rotate</logmode>
+</service>

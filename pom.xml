@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.alberthg.lbmanager</groupId>
-    <artifactId>lbmanager</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.alberthg.ldmanager</groupId>
+    <artifactId>ldmanager</artifactId>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
-    <name>Lbmanager</name>
+    <name>Ldmanager</name>
 
     <repositories>
         <!-- jhipster-needle-maven-repository -->
