@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.alberthg.lbmanager",
+      "nativeLanguage": "zh-tw"
+    },
+    "jhipsterVersion": "6.0.0",
+    "applicationType": "monolith",
+    "baseName": "lbmanager",
+    "packageName": "com.alberthg.lbmanager",
+    "packageFolder": "com/alberthg/lbmanager",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTIwMWI2ZTVlNzUzMzFhODJlOGYyODAyNTM0YzU2MWM0ODY0MzhiYTc2ZmVmZDVjNGFhYmI2M2M2Nzc2YzQ5MTMwYTZjODFkYjIzOTVjNmMyMzVmNDUzZTViZmQwZTk5ZDE2ODY1YjcxNDk2MGMyMTQ1OThhMTI2OTA5NzcxOTg=",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-tw",
+    "languages": ["zh-tw"]
+  }
+}
